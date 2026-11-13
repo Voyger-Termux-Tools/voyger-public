@@ -1,20 +1,24 @@
-Architectures: all
+Architectures: all aarch64 arm
 Codename: stable
 Components: main
-Date: Fri, 13 Nov 2026 12:44:49 +0000
+Date: Fri, 13 Nov 2026 13:13:07 +0000
 Description: Voyger X Mega Repository
 Label: Voyger X
 Origin: Voyger X
 Suite: stable
 MD5Sum:
- c37ba50501454bdd80a7664f2a1e5fc1              495 Packages
- eeaa629954b51ebe1024fbe8aa8a517b              176 Release
+ dfe10bb256c82905371c02a63c615f05              495 Packages
+ 6915f86639115920b696584f38bc25c0              380 Packages.gz
+ f89d9d9affe21e6691ee8d4fa9a3cd36              188 Release
 SHA1:
- 8686940b4dac84e615aae4c1fd329c616fe1a44b              495 Packages
- 2c96f35426b8a2053feb5503870545cda4a225c6              176 Release
+ eae6911eb889f4ca6cb70ce70f4f710a72a0a429              495 Packages
+ fbbefed85a193b8a34fd69ff98d0b9e9a1ddc838              380 Packages.gz
+ 700889e98cd1a6012a8830e60f38d57cfc396f94              188 Release
 SHA256:
- ebc854ab1fb705fd5bb0b59d215753a294e4599aa9220d770ecd9448206ad3c7              495 Packages
- d9445f283e0fa03e9140635f67423578ede70d992e4d0a334884b33044beec48              176 Release
+ 5a895daadbd68a6f1c3f500f6444152ab417e77222d87f926409f9e45ed3d772              495 Packages
+ 93f50c81d1ec8d81e3be93b4af35334a92bfeb885a830539b3cdba91725cfa32              380 Packages.gz
+ 8aec0506b0a4e4d844a5747b0f8e78c33f138f0311308789855fafd7b2b6b5c8              188 Release
 SHA512:
- b7565d2b13cc251084acf24afb48b0499053eea75b52eac109d66952cd9503eb2ee4e26438efdf0080af17dc02a7ea31b3e3207f35fdd15a011153a5b1fc1c61              495 Packages
- 6901f8b8f99024f6d772d2fb692fda963b10bec9231d1b3d094d58c898f8bb46e0ccb5f8492f166c7f6d9d63f7abb8a25f40046b4b18bd0f89e3ade35d4f280e              176 Release
+ ac6bd6d773f6a2a11e253fa0647c0b48820d592637348b2869487a5d63d0bc87117268b92146de1e175d2f8a294f6c83dcad3a94b1fa8ca43248ee419708008f              495 Packages
+ 628ae60c07babfef64c748acc2049789785507ead00424fe72cd1ec5545a1b2992a6540965020b09397b4b83291f7ad347ae2bbb1016df396281c6c997d7b44f              380 Packages.gz
+ 2ac540af4fd26ab472eedd78ca72003705ca43d3738c943b41b3564dca19e58f1b2f8bcbccdf9ef85b53a83f78966ef15462221673678188eecd05b7b9572669              188 Release
