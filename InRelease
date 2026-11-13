@@ -4,41 +4,41 @@ Hash: SHA512
 Architectures: all aarch64 arm
 Codename: stable
 Components: main
-Date: Fri, 13 Nov 2026 13:46:44 +0000
-Description: Voyger X Mega Repository
+Date: Fri, 13 Nov 2026 14:02:22 +0000
+Description: Voyger X Ultra Max Repository
 Label: Voyger X
 Origin: Voyger X
 Suite: stable
 MD5Sum:
- 1abf8d306957b7918e425370c6da0a38              495 Packages
- 31328f4777ed96e7e107deb299f9720b              379 Packages.gz
- 7ab6396b5b0dd40bfe625c047a3da6a2              188 Release
+ da45237c3da3c1d2c3c92ccda7f4b4ab              501 Packages
+ 0e04cae4087a533ffac24be418286483              383 Packages.gz
+ 56ada5b7da029a2215e5e94c02223e7d              193 Release
 SHA1:
- 2e54865e7ec654b0602d03d8a92f4da40c527f6a              495 Packages
- 34d4bebd18203cef189ecd5d3955aed90efe828f              379 Packages.gz
- f297e4c51db83dcd23120e407f3f34a27b758676              188 Release
+ 84938a41dadd9aa5022a3ebcac3353697b006c91              501 Packages
+ 50f18ed75ded177257450945ae6b969ef653a364              383 Packages.gz
+ 18ce7038a1fbfff7ff7374b2415522beb5c5398c              193 Release
 SHA256:
- c991f505b10a1f4f77c4e5598d2c56355d699c9abf756e332c1a2a6549374bdb              495 Packages
- 3eb8fd54aaf79ad42a70b598a189a62114b96922bec11b1d3c42039e9dce04fa              379 Packages.gz
- b1ed6935f93ff08eec95aa6aa7fc0edeadd62734e4ae1d398394b6e670200d72              188 Release
+ 3947c43270843caeeccbf8f5dbc78f3841b0fd208a4c007281f5bbd996498c2f              501 Packages
+ 7a32720853339af6299f28324b44931243754131f1f66349b675db859d894da3              383 Packages.gz
+ 5956d989f52a625d5bb3cae8ede55056bdb87dffffd1349d9c37838e2f24a119              193 Release
 SHA512:
- 6ffdb315f2ec5b8d424c646ac88cd771330bbfdd32f5165e44d2e3ec8b6ba49ffc97e55eee2fa291c9ceefb90360f4dd634d0ece9df6e22549b4ec2ed69e18af              495 Packages
- 2cf72457d3e8ee55fb919f4bd453390638ee4e7e2f6fc8af203782af3ada974b75acf69e910579a4471d5683a0e276b693ad19f34cfd08c2cdb9779325c3db81              379 Packages.gz
- f3c611ec2a9a42000a68e15d973121a7b0e5ba85857b0a049c98a08180f4efcce0a16dda241d7fc49c24e189ce6b558384a67ca9461684929b8adf1afdb39d1e              188 Release
+ 037c318ef54381df5f8a8b8f4ad05cadd77d95a3b47b04ef5762c15fe89f1f9adee7a3ab9e786b50190713bd84e95d898fcc45e0da35a38ec321527134e65f3d              501 Packages
+ f43e1c27ea388f4df407dba4e21befc27e8c1bc63df8c89d7d8d79a4c8fa1347264e1439f27c12da64591d5d895fa36a06c23eb0697779cbd255e93f9bc6a0bc              383 Packages.gz
+ c2f2f0456e0fdedf8cc0fcc603cf5089e4d617d8000352b6137d291a1a5eeef26fbffa65204a5cfa8fb250fbd5f884e64c1f56cd1d58b55958227e9bbf477c66              193 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQJTBAEBCgA9FiEExv4BD/hR9OzHCXx9/Fgumj0BLk0FAmr3FMYfHHRlcm11eGZv
-cmFuZHJvaWQuaW9zQGdtYWlsLmNvbQAKCRD8WC6aPQEuTXi5EAClQPq9tnmgUw/6
-+I16tF27EAuuCgXyRFgN9zyhteOMgRmjop+1fvUOPFZhYMGZiYK7w0Hmd071FXh7
-y5oty5UIpDGAi2/VY6lDcH8baQvOpbhRx/UngDZI+ljFQfYi6EG+HPTRo9kND/eT
-aj6eozhHakAwMW5Sw6XG6xBp1MIHg2t0xKAyUzCzC8U0aj3Mq03ZzvAJHQgreP86
-+9p8JIh63Ni5faOY5i1+ri2NqZc6hNC0kPx1zdSp0s3+oXa60C0HJ8DYIHvqMPUx
-ofjW/AWT2a6HyZCTC6YDcC75Wrqvk8vhQ1923qxBa7VJC4vx+R6L1Rf6KxAmpJ3N
-VabFkQxr09wIPOKNSm18CAXfzXP2MqnMxSG9p6ZJk/MlexOgC6QW5nl56xVrzu0a
-6iqtNrymkN6b3lLW6VugVk8asjZILYpzeHwv2h5dK2osWLrxapHHk3mQ//17oAw/
-icFOItdXs0XtMJMJkvYKBCUrtMU9KCuGpYmUUXoiBBtpjgO60mlzX+2n7VIBENtn
-trZYdNFRf295Gs1x/BfI0dg5a3iJDScaaoc6zjqayUBOFph3IK1H6R1JEtCYAYAY
-Pm2deuoL6xrc7zpdoPie1LyupNfxZ27nJkA91gmCZuf024lGPzZvadJkuoc/7lgG
-2KfuWwTZHqIwWmnTY+cZqmdkMRpWWw==
-=Rtgy
+iQJTBAEBCgA9FiEExv4BD/hR9OzHCXx9/Fgumj0BLk0FAmr3GHAfHHRlcm11eGZv
+cmFuZHJvaWQuaW9zQGdtYWlsLmNvbQAKCRD8WC6aPQEuTdj3EADZQguiHDoF3o75
+0qJl6Q+XI58k+Ii4YvAA8geybZ7ix6klG9m3qiSNjld1/V749ps/rHIvbjRWpLWc
+Aq/7IY7dPhzLfJq+i0CBjaibR3IEi2pLJL3ZXEy504bbDXDL041XVvu8YNuagTnQ
+9x3Slt5leMiDO1W+ZxxY7mVAdb3Ki0zFnGB3YEA0S8RUWC7BKMTL6olcqlAlWIrU
+MJAr4hbHGIXyQ2BbGVAJldNaBauPfNCVh+OJnO//K8shIZwhfnHmPmAZ+EVg7hJ9
+2AGHyu9WudzKJHVUVxcvaAxcvPRJYfvm/p8kZmbTfFxrJGQdiPYQkkNiqvtpjAjc
+9vqjbKkSM6PQwMkfl+ARzNU74zShWwVRGioxV8CGXs68nkN8PvlGras9fhqx8byH
+pKnZb18GpWZP6wei9Iumk7ipPiLRdopKm9ovSvfoI1VbTFR6yNlI1uFo1ChzClPD
+N3uksnJK2zRwjdHx2WNxW8Fsbxj9/whijPx0/EZcbePc+OGXYaQeGf3fNShKn+A3
+Ebdx26c3n6VFMXJz5Q7GxcAIi3rtZQ5gCOtZMv6TZeg7lkSD3d2oeYJKr5RHWbkj
+lJ2IeOy/ZZ6fZPeyLgu3mJaiNDjO2VqFsBM4OpDLTwnGvwi/AaR1R3FACpiqvND6
+cm4SH+qaQbGOsM/124y210/4d38rlg==
+=Ci1e
 -----END PGP SIGNATURE-----
