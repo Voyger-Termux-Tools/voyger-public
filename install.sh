@@ -54,13 +54,13 @@ mkdir -p $PREFIX/etc/apt/sources.list.d/
 echo -e ">> ${CYAN}Downloading GPG Security Key...${NC}"
 
 # এখানে আমরা gpg কমান্ড ব্যবহার না করে, সরাসরি পাবলিক কি-এর বাইনারি ভার্সন ডাউনলোড করবো
-curl -sL "https://raw.githubusercontent.com/Termux-Tools-World/voyger-public/main/keys/voyger.gpg" -o $PREFIX/etc/apt/trusted.gpg.d/voyger.gpg
+curl -sL "https://raw.githubusercontent.com/Voyger-Termux-Tools/voyger-public/main/keys/voyger.gpg" -o $PREFIX/etc/apt/trusted.gpg.d/voyger.gpg
 
 echo -e "${GREEN}✅ GPG key configured successfully!${NC}"
 
 # সোর্স লিস্টে অ্যাড
 echo -e ">> ${CYAN}Adding Voyger X repository...${NC}"
-echo "deb [signed-by=$PREFIX/etc/apt/trusted.gpg.d/voyger.gpg] https://raw.githubusercontent.com/Termux-Tools-World/voyger-public/repo-dist ./" > $PREFIX/etc/apt/sources.list.d/voyger.list
+echo "deb [signed-by=$PREFIX/etc/apt/trusted.gpg.d/voyger.gpg] https://raw.githubusercontent.com/Voyger-Termux-Tools/voyger-public/repo-dist ./" > $PREFIX/etc/apt/sources.list.d/voyger.list
 echo -e "${GREEN}✅ Repository added successfully!${NC}"
 
 # আপডেট
