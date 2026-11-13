@@ -4,41 +4,41 @@ Hash: SHA512
 Architectures: all aarch64 arm
 Codename: stable
 Components: main
-Date: Fri, 13 Nov 2026 14:02:22 +0000
+Date: Fri, 13 Nov 2026 14:10:44 +0000
 Description: Voyger X Ultra Max Repository
 Label: Voyger X
 Origin: Voyger X
 Suite: stable
 MD5Sum:
- da45237c3da3c1d2c3c92ccda7f4b4ab              501 Packages
- 0e04cae4087a533ffac24be418286483              383 Packages.gz
- 56ada5b7da029a2215e5e94c02223e7d              193 Release
+ 71586ceedb5008146a3bcbc3f5dbb1fb              501 Packages
+ e847c9ccf87d69688b6e41ef8c830d21              382 Packages.gz
+ 5aa973a374a1fea29b786f48602b8f47              193 Release
 SHA1:
- 84938a41dadd9aa5022a3ebcac3353697b006c91              501 Packages
- 50f18ed75ded177257450945ae6b969ef653a364              383 Packages.gz
- 18ce7038a1fbfff7ff7374b2415522beb5c5398c              193 Release
+ 60874f6e8b86c4e2cd9ee89f5db7fd67e3bf9536              501 Packages
+ 561df7fce0b2dcaa17dba71461ecf9775319d366              382 Packages.gz
+ 802f6789ebbfc6020b812787b0eb8587c5360604              193 Release
 SHA256:
- 3947c43270843caeeccbf8f5dbc78f3841b0fd208a4c007281f5bbd996498c2f              501 Packages
- 7a32720853339af6299f28324b44931243754131f1f66349b675db859d894da3              383 Packages.gz
- 5956d989f52a625d5bb3cae8ede55056bdb87dffffd1349d9c37838e2f24a119              193 Release
+ c495e0cfcb37b196532537ec6bf64efb1cf18a63593fbcdde7bf206b472904fa              501 Packages
+ 9c52fff8cf124b600101b067bef14626006bcb30e2a755490b87a4b9bfe95c78              382 Packages.gz
+ fbcd52d6eff2df00b2a5623862a622b37a5ab027decfa084293f4205f7fc9a00              193 Release
 SHA512:
- 037c318ef54381df5f8a8b8f4ad05cadd77d95a3b47b04ef5762c15fe89f1f9adee7a3ab9e786b50190713bd84e95d898fcc45e0da35a38ec321527134e65f3d              501 Packages
- f43e1c27ea388f4df407dba4e21befc27e8c1bc63df8c89d7d8d79a4c8fa1347264e1439f27c12da64591d5d895fa36a06c23eb0697779cbd255e93f9bc6a0bc              383 Packages.gz
- c2f2f0456e0fdedf8cc0fcc603cf5089e4d617d8000352b6137d291a1a5eeef26fbffa65204a5cfa8fb250fbd5f884e64c1f56cd1d58b55958227e9bbf477c66              193 Release
+ efb9462de146946c8a2bb82f1e8cd595557a3a7e07e2ae4727280bfcbba9283c31cb8b74050adadeef06f65e4ebbc3089257b3a2db183ebae16ada6b1eacb195              501 Packages
+ 62b2fe62778688622b01b0ca80f0c9c5f7b60de4b946f4411d70443677302f54d3afb6fae247e06db3e86c1252e5edd03939524ef446a60388e5189396812b28              382 Packages.gz
+ f7048f0d6f2f0dcd77bc1dd18ceadec1ab3b6e0d07ff22fcbba1ad4725ae61e51fa4c0afd3275dbc0e71a8284be756b48c7cca602fb5183a120d20dcff2a3140              193 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQJTBAEBCgA9FiEExv4BD/hR9OzHCXx9/Fgumj0BLk0FAmr3GHAfHHRlcm11eGZv
-cmFuZHJvaWQuaW9zQGdtYWlsLmNvbQAKCRD8WC6aPQEuTdj3EADZQguiHDoF3o75
-0qJl6Q+XI58k+Ii4YvAA8geybZ7ix6klG9m3qiSNjld1/V749ps/rHIvbjRWpLWc
-Aq/7IY7dPhzLfJq+i0CBjaibR3IEi2pLJL3ZXEy504bbDXDL041XVvu8YNuagTnQ
-9x3Slt5leMiDO1W+ZxxY7mVAdb3Ki0zFnGB3YEA0S8RUWC7BKMTL6olcqlAlWIrU
-MJAr4hbHGIXyQ2BbGVAJldNaBauPfNCVh+OJnO//K8shIZwhfnHmPmAZ+EVg7hJ9
-2AGHyu9WudzKJHVUVxcvaAxcvPRJYfvm/p8kZmbTfFxrJGQdiPYQkkNiqvtpjAjc
-9vqjbKkSM6PQwMkfl+ARzNU74zShWwVRGioxV8CGXs68nkN8PvlGras9fhqx8byH
-pKnZb18GpWZP6wei9Iumk7ipPiLRdopKm9ovSvfoI1VbTFR6yNlI1uFo1ChzClPD
-N3uksnJK2zRwjdHx2WNxW8Fsbxj9/whijPx0/EZcbePc+OGXYaQeGf3fNShKn+A3
-Ebdx26c3n6VFMXJz5Q7GxcAIi3rtZQ5gCOtZMv6TZeg7lkSD3d2oeYJKr5RHWbkj
-lJ2IeOy/ZZ6fZPeyLgu3mJaiNDjO2VqFsBM4OpDLTwnGvwi/AaR1R3FACpiqvND6
-cm4SH+qaQbGOsM/124y210/4d38rlg==
-=Ci1e
+iQJTBAEBCgA9FiEExv4BD/hR9OzHCXx9/Fgumj0BLk0FAmr3GmYfHHRlcm11eGZv
+cmFuZHJvaWQuaW9zQGdtYWlsLmNvbQAKCRD8WC6aPQEuTXVfEACvejiJSc8nkTUJ
+JxKiJnG29znO2ce6gnLCSNMMTKLpbv0/UPygEu6WAUzcnRS+/Itua09GCmR1bzWn
+NwrwwfNZDt+hLMyxFMbsdqhaONsZhayOKEMnvyziVY1CLQzf77S9gnzE8lQt9vyE
+E3j+yBmrO/b+vFQvkEKw5AuXYBqkofBCwVz//5xSJ2EidwIw3S8PwxRuyih2w5Sr
+Wt26tBnqMz2JET7lrfZ2j/tnf4IqZW8+cMcLcAVN8rXCGU7vN8qRhVRCxI8qLkhT
+6RJUQOxlO74V28axpinBeIoWoMDpZDagdfNboJn6E+SbtW3+qp9BGsHKSJ4uIBnc
+6nSUlCOcz7AwnU4SkPvOoT4j4+XmKgTuqhrYWVHCowQhxcwieOkc2iCeuWOaK03c
+oiy/veejcYgWpbmjYNI3fT7hF6zzpHjNiqdxavUcpp/CqSW1fC2zY4AEw5fI/pQo
+PQFcQmgDA8qKPZIudRc+FIRX/6cctjGXaH0xG1eCBrCOqoiBIykMDQoKU0znyqIR
+/U7i31HHbNgnA76qiacoENYhiYhb7+vbzmdJpTTp6FC0puKqbJoYBuSkgD64avvQ
+cnBSjX+eghYl0QtuTcJdzIw92mih0pEP6tgMr4KxtE7OtvjoUG6NA1Y+Y2T43aVo
+rKBWgvSmPfA8AkUAnd3kwFv8i0s7IQ==
+=oEkJ
 -----END PGP SIGNATURE-----
