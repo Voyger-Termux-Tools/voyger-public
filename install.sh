@@ -36,35 +36,38 @@ type_effect "${YELLOW}>> Initializing secure connection...${NC}"
 type_effect "${YELLOW}>> Fetching latest security protocols...${NC}"
 echo ""
 
-# ডিপেন্ডেন্সি চেক
+# ১. ডিপেন্ডেন্সি চেক
 echo -e ">> ${CYAN}Checking system dependencies...${NC}"
 if ! command -v curl &> /dev/null; then
     pkg install curl -y > /dev/null 2>&1
 fi
 echo -e "${GREEN}✅ Dependencies satisfied!${NC}"
 
-# স্টোরেজ চেক
+# ২. স্টোরেজ চেক
 STORAGE=$(df -h $PREFIX | awk 'NR==2 {print $4}')
 echo -e ">> ${CYAN}Free Space Available:${NC} ${GREEN}$STORAGE${NC}"
 
-# ডিরেক্টরি তৈরি
+# ৩. ডিরেক্টরি তৈরি
 mkdir -p $PREFIX/etc/apt/sources.list.d/
 
-# GPG Key ডাউনলোড (সরাসরি বাইনারি ফরম্যাটে, gpg কমান্ড ছাড়াই)
+# ৪. পুরনো ফাইল পরিষ্কার (যাতে কোনো কনফ্লিক্ট না হয়)
+rm -f $PREFIX/etc/apt/trusted.gpg.d/voyger.gpg
+rm -f $PREFIX/etc/apt/sources.list.d/voyger.list
+apt clean > /dev/null 2>&1
+
+# ৫. GPG Key ডাউনলোড (ক্যাশে বাইপাস করে)
 echo -e ">> ${CYAN}Downloading GPG Security Key...${NC}"
-
-# এখানে আমরা gpg কমান্ড ব্যবহার না করে, সরাসরি পাবলিক কি-এর বাইনারি ভার্সন ডাউনলোড করবো
-curl -sL "https://raw.githubusercontent.com/Voyger-Termux-Tools/voyger-public/main/keys/voyger.gpg" -o $PREFIX/etc/apt/trusted.gpg.d/voyger.gpg
-
+curl -H "Cache-Control: no-cache" -sL "https://raw.githubusercontent.com/Voyger-Termux-Tools/voyger-public/main/keys/voyger.gpg" -o $PREFIX/etc/apt/trusted.gpg.d/voyger.gpg
 echo -e "${GREEN}✅ GPG key configured successfully!${NC}"
 
-# সোর্স লিস্টে অ্যাড
+# ৬. সোর্স লিস্টে অ্যাড (ক্যাশে বাইপাস)
 echo -e ">> ${CYAN}Adding Voyger X repository...${NC}"
 echo "deb [signed-by=$PREFIX/etc/apt/trusted.gpg.d/voyger.gpg] https://raw.githubusercontent.com/Voyger-Termux-Tools/voyger-public/repo-dist ./" > $PREFIX/etc/apt/sources.list.d/voyger.list
 echo -e "${GREEN}✅ Repository added successfully!${NC}"
 
-# আপডেট
+# ৭. আপডেট (ক্যাশে বাইপাস করে নতুন করে লিস্ট তৈরি)
 echo -e ">> ${CYAN}Updating package repositories...${NC}"
+rm -rf $PREFIX/var/lib/apt/lists/*
 pkg update -y > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}✅ System updated successfully!${NC}"
@@ -76,5 +79,5 @@ echo ""
 echo -e "${RED}================================================${NC}"
 echo -e "${GREEN} 🎉 VOYGER X IS READY TO DOMINATE!${NC}"
 echo -e "${YELLOW} Use the command below to open the store:${NC}"
-echo -e "${CYAN}   voyger-store${NC}"
+echo -e "${CYAN}   pkg install voyger-store${NC}"
 echo -e "${RED}================================================${NC}"
