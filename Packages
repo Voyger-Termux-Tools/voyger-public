@@ -4,10 +4,10 @@ Version: 1.0
 Maintainer: Voyger
 Depends: whiptail
 Filename: ./voyger-store_1.0_all.deb
-Size: 2590
-MD5sum: d1d80bc835150563fd19b01e62e64cd3
-SHA1: 75e1a0d798e479c7e72b46dadb8ed76aa621463a
-SHA256: 0c0d0d1a983f2613edb30536eb879b01664abb66004d3a59eac4e47e62e11aa8
-SHA512: 19c9c2eea7e509965c254890899410aaff2a5c0838de97fb3ea5c1d948925a01f6591a61bcaee66d84463a89081c5b205d48b006fbbf4f0fbdbe2e135ef3a099
+Size: 2580
+MD5sum: 3fbcdc183dbc1d75b2ed0264060edc66
+SHA1: c27323c9f4cfec7bab4681fb0aee3dd4ce523aec
+SHA256: 620bbf9307aa6e29f8ecea060af9c7c57e3bbca6a2f956b91f89c701b80e85b3
+SHA512: cf795ac3df38399ae7d4242b4fa85466575005fe253e9df08223a4043913778186c67c509de86aa4be48e90a1711b7fa3a342a731ec146aeda821fb61780ed43
 Description: The ultimate premium TUI store for Voyger X.
 
