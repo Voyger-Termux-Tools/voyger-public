@@ -1,24 +1,17 @@
-Architectures: all aarch64 arm
-Codename: stable
-Components: main
-Date: Fri, 13 Nov 2026 16:08:43 +0000
-Description: Voyger X Ultra Max Repository
-Label: Voyger X
-Origin: Voyger X
-Suite: stable
+Date: Sat, 14 Nov 2026 04:20:57 +0000
 MD5Sum:
- 70be74e83ec258d3d0929cb17345b386              495 Packages
- 7701137d92dd921d18d764b29566d246              379 Packages.gz
- b7f74fbc0091d876ea7369259765ac89              193 Release
+ 0ba5e0ef61b2ace5c7aad123a5e155d2              495 Packages
+ 04fe0c44e697a8392a660d53eb21f6a9              378 Packages.gz
+ cb934e72a1481f2fb78fc17cb7036f96               38 Release
 SHA1:
- ff8cdc9d25345308a3ff372dc6d76908ed8ed005              495 Packages
- 8bbb92bef01d6c14bf0c34ab987e9e92c5e38fa3              379 Packages.gz
- 00a602e7efbc6d01a12d710bf52778873f8e2848              193 Release
+ eebd46f60bd6885aba39dd21ad1038772041a1c8              495 Packages
+ c74ce34e328d5be08372740bfaab02562d05a7b0              378 Packages.gz
+ f143917db64cf6dd968e8e1f5e791ae49604d20b               38 Release
 SHA256:
- 3280eb041583f7c39c7e4537975150ead73cd558a1ee02354395702c785ff166              495 Packages
- 8632fe66906d3f172a326d1be6755c2034b9190a12869186fa8a1f9a19b87437              379 Packages.gz
- 329a251d7494b21e36a82c870e46ddd7c6ee3931e7a70531121b149a43391820              193 Release
+ 4655353885813c66f5568331dcfadf255a5dcaa403503b493cf1234a6ceec441              495 Packages
+ a9976c242604f3eb049ecdfe31e1779ca1c84a1b782e49f2b8e00b9dade3173a              378 Packages.gz
+ ad675d3cc1d0f94a4a85f911ac3c7854ae56151185d76982d38c755c6a1cc38e               38 Release
 SHA512:
- a394cd14ec9680a0eb205ec700cc6546dd6b9d05d7672610c8af3b6cd58800a951a955598217b2462a081b01dbdef0954d6c18c3329ec1735dc825e113071a22              495 Packages
- 686be4cdc7df7bbe1bb8406d0e1e8838714ed3db1279b0b0e21e2092cc0052f220834aa12449097fb6219edfee6c4a869bb1d765cc4ffac83e9c2c1dd64b8251              379 Packages.gz
- 87d7d64bb8e54580f6d500ca5bc2ebe73ded59e52dd0407d84d4991abe4227eea86d79c6f42ce88f7ec6308d364013e0609faf15950f0380909e5ed7ac5da9b6              193 Release
+ ce67bbece623f6c4e28cf3cd9000cbd35cf2925276ff347d2bc525502b306471082d9777bbc8619115525bf86f6f0d41efd9e71f7d12f1f46eabdbf6bb414ec7              495 Packages
+ 52e1da6e292b8b784c557f742f35552d2ce71221ee07d7c3a452314781600b18f8e9ef2058cb0beac7a65f60a9c0d5ad6a470e3a8281dcf3c564fd45fe3872fb              378 Packages.gz
+ 4047adfda7b7ab0aea7097a3ddff34e09a215dcf22d3990ce2475c9b4434a6f0889ac141333c83d5045ca2c8f0d0385b290c0930abf2f9c8016ec0e2f0196e90               38 Release
