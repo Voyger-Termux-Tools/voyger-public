@@ -1,3 +1,16 @@
+Package: metasploit
+Architecture: all
+Version: 1.0
+Maintainer: VOYGER
+Depends: ruby, wget, unzip, sqlite, libxml2, libxslt, postgresql, curl
+Filename: ./metasploit_1.0_all.deb
+Size: 964
+MD5sum: 2fee71bb1833c876fe7f1360dfc0046b
+SHA1: cb399f4390a52d4fa09a30dd2ddf1065afacc240
+SHA256: 12ced208db8265eeacb847abaa88e4d5a89895c538a11df0e8e7c14488e673cf
+SHA512: 4f29ddc74089c90903f5d21ddb126b19bb569a4839b723bc386cd22bd5cad0d19b5372dae381b44e6966c90d3de93195d032fc7f7d84a385cbf0825e87a4f339
+Description: Advanced Metasploit Framework Installer for Termux.
+
 Package: voyger-store
 Architecture: all
 Version: 1.0
@@ -5,9 +18,9 @@ Maintainer: Voyger
 Depends: whiptail
 Filename: ./voyger-store_1.0_all.deb
 Size: 2372
-MD5sum: c7329b2be94b3193bbcebe467dd459ee
-SHA1: 1068f3f4de4b57ea80993bf1e81becaa544a6e69
-SHA256: e4eb0a0e04578fa54d7888dd26a1d8d5d6968104394a6c05fb80e547c2be5460
-SHA512: f80bf1df8eee0cbd2c81273d987685f44581379e9cf51295d0c3d575c41c0cc6a36a4cceb0de95827f42491911e66ecd79f3e8b850b04c4ab68b0a7277b8e62e
+MD5sum: 6ade936896af316d9aff788d56e4a378
+SHA1: 4f8dac86b91b699bd06f4be70ccd9d3fd7e20abb
+SHA256: aaa79256311b1522bafdfba9b20816e76cc5fd94ef224f3d3b1ffe704b70f6a7
+SHA512: 6bccc5d91616f5837f8096810d1ffabef86878c09959804135ac82c86f96b2eaf28e3425f90c42ae4c1625f6a7241d68e1acaca902b5c5c882618dabe77374c8
 Description: The ultimate premium TUI store for Voyger X.
 
